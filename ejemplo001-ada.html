@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Análisis de Datos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container-main {
+            max-width: 900px;
+            margin: 20px;
+        }
+        
+        .card-project {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .card-project:hover {
+            transform: translateY(-5px);
+        }
+        
+        .header-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+        
+        .header-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header-section .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+        
+        .content-section {
+            padding: 40px;
+        }
+        
+        .description-title {
+            color: #667eea;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .description-text {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+        
+        .info-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            margin: 10px 5px;
+            font-size: 0.9rem;
+        }
+        
+        .icon-data {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-main">
+        <div class="card-project">
+            <div class="header-section">
+                <div class="icon-data">📊</div>
+                <h1>Analisis Base de datos relacionada con área plantada con Plantaciones Forestales Comerciales.
+</h1>
+                <p class="subtitle">Proyecto Bootcamp  Ciencia de Datos | Talento Tech 2025</p>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="description-title">Descripción del Proyecto</h2>
+                <p class="description-text">
+                    Este proyecto tiene como objetivo desarrollar un modelo predictivo avanzado para el análisis y 
+                    pronóstico de ventas utilizando técnicas de machine learning. A través del procesamiento de datos 
+                    históricos, implementamos algoritmos de regresión y análisis de series temporales para identificar 
+                    patrones de comportamiento del consumidor y tendencias de mercado.
+                </p>
+                <p class="description-text mt-3">
+                    El análisis incluye la exploración de datos (EDA), limpieza y transformación de variables, 
+                    ingeniería de características, y la construcción de modelos predictivos que permitan a la 
+                    organización tomar decisiones informadas sobre estrategias de ventas, gestión de inventario 
+                    y planificación de recursos.
+                </p>
+                
+                <div class="mt-4 text-center">
+                    <span class="info-badge">Python</span>
+                    <span class="info-badge">Pandas</span>
+                    <span class="info-badge">Scikit-learn</span>
+                    <span class="info-badge">Machine Learning</span>
+                    <span class="info-badge">Visualización de Datos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
